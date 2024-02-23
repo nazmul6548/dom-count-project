@@ -24,3 +24,13 @@ console.log(output);
 // type 4 : update arrow function 
 const output2 =myArr.map(n => n*2);
 console.log(output2);
+
+const myName = ["jew","mew","keww"];
+const nameResult = myName.map(name => name)
+console.log(nameResult);
+const nameResult2 = myName.map(name => name.length)
+console.log(nameResult2);
+const nameResult3 = myName.map(name => name[0])
+console.log(nameResult3);
+const nameResult4 = myName.map(name => name[1])
+console.log(nameResult4);
